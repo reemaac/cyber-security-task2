@@ -64,9 +64,4 @@ Analyze a suspicious email and identify phishing indicators used by attackers.
 This is a **clear phishing attempt**. It uses urgent language, fake branding, and a misleading link to trick the user into giving up sensitive info.
 ⚠️ Always check the real link before clicking, and don’t trust urgent emails without verification.
 
----
 
-## 📁 Files Included:
-
-* `README.md`
-* `phishing-email-example.png` (screenshot of the email)
