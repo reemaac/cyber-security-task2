@@ -8,64 +8,63 @@ Analyze a suspicious email and identify phishing indicators used by attackers.
 
 ## 📧 Phishing Email Overview:
 
-* **From:** "Wells Fargo" (appears legit)
-* **Subject:** "Secure Your WellsFargo Online Key"
-* **Body Message:** Asks user to click a link to “reactivate” a security key
-* **Link:** `http://cabinetkigmina.com/Wellsfargo_keys_account8/page2.html`
+- **From:** "Wells Fargo" (appears legit)
+- **Subject:** "Secure Your WellsFargo Online Key"
+- **Body Message:** Asks user to click a link to “reactivate” a security key
+- **Link:** `http://cabinetkigmina.com/Wellsfargo_keys_account8/page2.html`
 
 ---
 
 ## 🔍 Phishing Indicators Found:
 
-1. **Fake Link**
+1. **Fake Link**  
+   - The displayed text looks official, but the real link goes to `cabinetkigmina.com` — not a bank website.
 
-   * Looks like a Wells Fargo link, but actually goes to `cabinetkigmina.com` — clearly not a bank website.
+2. **Urgent Language**  
+   - “Your Personal Security Key has expired.” — creates panic to make you click quickly.
 
-2. **Urgency**
+3. **Generic Greeting**  
+   - Uses "Dear Alex" — banks usually use your full legal name.
 
-   * Uses fear tactics: “Your Personal Security Key has expired.”
+4. **Unusual Sender Platform**  
+   - The email comes via LinkedIn inbox, not from a bank's official domain.
 
-3. **No Personal Greeting**
-
-   * Uses "Dear Alex" but no other account info — real banks use your full name.
-
-4. **Unusual Sender**
-
-   * Sender claims to be “Wells Fargo Support” but LinkedIn inbox is being used — not standard for banks.
-
-5. **Brand Misuse**
-
-   * Uses Wells Fargo name and style to create trust — typical of phishing.
+5. **Misused Branding**  
+   - Attempts to copy Wells Fargo’s style but uses inconsistent fonts and layout.
 
 ---
 
-## 🔐 Why It's Dangerous:
+## 🔐 Why It’s Dangerous:
 
-* Clicking the link may lead to a **fake login page** that steals passwords.
-* May download malware or steal personal data.
+- The fake link could steal login credentials (phishing).
+- May install malware or redirect to fake login sites.
+- Social engineering is used to trick the user emotionally.
 
 ---
 
 ## 🛠 Tools/Methods Used:
 
-* Manual inspection of email content and sender
-* Hovered over links to check real destination
+- Manual inspection of email content
+- Hovered over the email link to view the true URL
 
 ---
 
 ## 📸 Screenshot:
 
-*Unable to upload screenshot in this environment. Please include a screenshot named `phishing-email-example.png` when submitting to GitHub.*
+![Phishing Email Screenshot](phishing-email-example.png)
+
+_If this image does not show up, please check that the screenshot file is correctly uploaded in the repository._
 
 ---
 
 ## ✅ Conclusion:
 
-This is a **clear phishing attempt**. It uses urgent language, fake branding, and a misleading link to trick the user into giving up sensitive info. Always check the real link before clicking, and don’t trust urgent emails without verification.
+This is a **clear phishing attempt** using urgency, deception, and fake links.  
+⚠️ Always verify the sender and never click on suspicious links — hover to check the real URL first.
 
 ---
 
 ## 📁 Files Included:
 
-* `README.md`
-* (Add `phishing-email-example.png` if possible)
+- `README.md`
+- `phishing-email-example.png` *(optional screenshot of the email)*
