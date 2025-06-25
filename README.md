@@ -55,13 +55,17 @@ Analyze a suspicious email and identify phishing indicators used by attackers.
 
 ## 📸 Screenshot:
 
-(Include the image i am uploading: `phishing-email-example.png`)
+*Unable to upload screenshot in this environment. Please include a screenshot named `phishing-email-example.png` when submitting to GitHub.*
 
 ---
 
 ## ✅ Conclusion:
 
-This is a **clear phishing attempt**. It uses urgent language, fake branding, and a misleading link to trick the user into giving up sensitive info.
-⚠️ Always check the real link before clicking, and don’t trust urgent emails without verification.
+This is a **clear phishing attempt**. It uses urgent language, fake branding, and a misleading link to trick the user into giving up sensitive info. Always check the real link before clicking, and don’t trust urgent emails without verification.
 
+---
 
+## 📁 Files Included:
+
+* `README.md`
+* (Add `phishing-email-example.png` if possible)
